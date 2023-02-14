@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Pacifico-Regular';
+  src: url('Pacifico-Regular.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  display: grid;
+  font-family: sans-serif;
+  font-size: 24px;
+  background-color: #eee;
+}
+
+a {
+  color: #FF2D55;
+  text-decoration: none;
+}
+
+header {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+footer {
+  margin: 50px 0 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+
+.app-name {
+  font-family: 'Pacifico-Regular';
+  font-size: 60px;
+}
+
+.app-name > .logo {
+  height: 100px;
+  vertical-align: -25px;
+}
+
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 30px;
+  text-align: justify;
+}
+
+#screenshot {
+  text-align: center;
+}
+
+#screenshot img {
+  max-width: 100%;
+  height: auto;
+}
+
+#download-button {
+  text-align: center;
+}
+
